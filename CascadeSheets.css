@@ -1,0 +1,63 @@
+body{
+    display:flex;
+    flex-direction: column;
+
+}
+header{
+    
+    background-color: yellow;
+    text-align: center;
+
+}
+
+footer{
+    
+    text-align: center;
+    margin-top:auto;
+    
+}
+
+.Core{
+    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20%;
+    gap: 5%; 
+}
+
+
+.Menu{
+    
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.Posts{
+    border-width: 0px;
+    border-left-width: 5px;
+    border-left-color: green;
+    border-style: solid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end:4;
+    padding: 10px;
+    
+    
+
+}
+
+.LastsPosts{
+    align-content: right;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: right;
+    border-color:green;
+    border-style:dashed;
+    border-width: 5px;
+
+}
